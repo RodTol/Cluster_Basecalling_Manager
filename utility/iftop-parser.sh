@@ -25,7 +25,7 @@ do
     iftop_output=$(iftop -N -t -s 2 -i "$interface" 2>&1)
 
     if echo "$iftop_output" | grep -q "$host"; then
-        echo "$timestamp: Communication with $host found."
+        #echo "$timestamp: Communication with $host found."
 
         receive_line=$(echo "$iftop_output" | awk -v host="$host" '$0 ~ host && /<=/')
         receive_value=$(echo "$receive_line" | awk '{print $3}')         # 6 is the cumulative rate. 3 the last2s
