@@ -16,7 +16,8 @@ spack load ont-guppy@6.1.7-cuda
 nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory --format=csv -l 1 -f /raid/tolloi-tests/results/guppy-results/$run_name/gpu_log_$run_name.csv &
 bg_pid=$!
 
-guppy_basecaller -c dna_r9.4.1_450bps_hac.cfg   -i  /raid/tolloi-tests/dataset_fast5_31G_0/ -s results/guppy-results/$run_name  -x cuda:all
+#guppy_basecaller -c dna_r9.4.1_450bps_hac.cfg   -i  /raid/tolloi-tests/dataset_fast5_31G_0/ -s results/guppy-results/$run_name  -x cuda:all
+guppy_basecaller_supervisor --num_clients 25 --input_path $1 --save_path $2 --config dna_r9.4.1_450bps_hac.cfg --port 42837 
 
 kill $bg_pid
 
