@@ -30,7 +30,7 @@ receive_average = df['receive'].mean()
 # Create a DataFrame for averages
 averages_df = pd.DataFrame({
     ' ': ['Send', 'Receive'],
-    'Average (Bytes)': [send_average, receive_average]
+    'Average (Gb)': [send_average, receive_average]
 })
 
 #Create save path and directory
@@ -47,14 +47,14 @@ plt.plot(df['Timestamp'], df['receive'], label='Receive', marker='o')
 
 plt.title('Send and Receive Data Over Time')
 plt.xlabel('Timestamp')
-plt.ylabel('Data (in Bytes)')
+plt.ylabel('Data (in Gbits)')
 
 plt.legend()
 
 # Display the averages on the plot
-plt.axhline(100, color='purple', linestyle='--', label='Expected connection speed')
-plt.axhline(send_average, color='red', linestyle='--', label=f'Send Avg: {send_average:.2f} B')
-plt.axhline(receive_average, color='blue', linestyle='--', label=f'Receive Avg: {receive_average:.2f} B')
+#plt.axhline(100, color='purple', linestyle='--', label='Expected connection speed')
+plt.axhline(send_average, color='red', linestyle='--', label=f'Send Avg: {send_average:.2f} Gb')
+plt.axhline(receive_average, color='blue', linestyle='--', label=f'Receive Avg: {receive_average:.2f} Gb')
 
 plt.legend()
 

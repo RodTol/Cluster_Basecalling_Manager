@@ -43,5 +43,5 @@ do
     fi
     echo "$timestamp,$interface,$send_value,$receive_value" >> "$output_file"
 
-    sleep 0.5  # Adjust the interval as needed
+    sleep 1  # Adjust the interval as needed
 done

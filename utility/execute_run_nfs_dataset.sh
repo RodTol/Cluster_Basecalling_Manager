@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+#activate python venv
+source ~/python_venv/nv-dashboard/bin/activate
+
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 RESET="\033[0m"  # Reset color to default
@@ -47,4 +50,5 @@ dcgmi stats -g 4 -a -v
 python ~/Cluster_Basecalling_Manager/utility/gpu_average.py /AB_20T_output/nanopore_output/$run_name/gpu_log_$run_name.csv
 python ~/Cluster_Basecalling_Manager/utility/net_average.py /AB_20T_output/nanopore_output/$run_name/connection_log_$run_name.csv
 
-
+#deactivate python venv
+deactivate
