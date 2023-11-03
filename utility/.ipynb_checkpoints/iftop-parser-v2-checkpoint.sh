@@ -12,11 +12,11 @@ echo "Select host (nfs01.ib)"
 host=$2
 echo host
 
-output_file=/AB_20T_output/nanopore_output/$3/connection_log_$3.csv
+output_file=/AB_20T_output/nanopore_output/run_logs/$3/connection_log_$3.csv
 echo "Output file: $output_file"
 
 # Add column headers to the CSV file
-echo "Timestamp,Interface,send,receive" > "$output_file"
+echo "Timestamp;Interface;send;receive" > "$output_file"
 
 # Run iftop in a loop and save data with timestamps
 while true
@@ -41,7 +41,7 @@ do
         send_value=0
         receive_value=0
     fi
-    echo "$timestamp,$interface,$send_value,$receive_value" >> "$output_file"
+    echo "$timestamp;$interface;$send_value;$receive_value" >> "$output_file"
 
-    sleep 0.5  # Adjust the interval as needed
+    sleep 1  # Adjust the interval as needed
 done

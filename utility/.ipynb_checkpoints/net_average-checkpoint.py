@@ -5,23 +5,26 @@ import sys
 from pathlib import Path
 
 csv_file_name = sys.argv[1]
+path = os.path.dirname(csv_file_name)
 run_name =  Path(csv_file_name).stem
-df = pd.read_csv(csv_file_name)
+df = pd.read_csv(csv_file_name, sep=';')
 
 # Function to convert to Gb
-def convert_to_Gbytes(value):
+def convert_to_Gbit(value):
     if 'Kb' in value:
         return float(value.strip('Kb')) / (1000*1000)
     elif 'Mb' in value:
         return float(value.strip('Mb')) / 1000 
     elif 'Gb' in value:
         return float(value.strip('Gb'))
+    elif 'b' in value:
+        return float(value.strip('b')) / (1000*1000*1000)
     else:
         return 0  # Assume it's already in bytes
 
 # Convert 'send' and 'receive' columns to bytes
-df['send'] = df['send'].apply(convert_to_Gbytes)
-df['receive'] = df['receive'].apply(convert_to_Gbytes)
+df['send'] = df['send'].apply(convert_to_Gbit)
+df['receive'] = df['receive'].apply(convert_to_Gbit)
 
 # Calculate the averages
 send_average = df['send'].mean()
@@ -34,7 +37,7 @@ averages_df = pd.DataFrame({
 })
 
 #Create save path and directory
-save_path=str(run_name)+"_net_avg"
+save_path=os.path.join(path, run_name + "_net_avg")
 os.mkdir(save_path)
 
 # Save the averages to a CSV file

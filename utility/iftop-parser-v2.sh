@@ -6,23 +6,23 @@ RESET="\033[0m"  # Reset color to default
 
 echo "Select interface"
 interface=$1
-echo interface
+echo $interface
 
 echo "Select host (nfs01.ib)"
 host=$2
-echo host
+echo $host
 
-output_file=/AB_20T_output/nanopore_output/$3/connection_log_$3.csv
+output_file=/AB_20T_output/nanopore_output/run_logs/$3/connection_log_$3.csv
 echo "Output file: $output_file"
 
 # Add column headers to the CSV file
-echo "Timestamp,Interface,send,receive" > "$output_file"
+echo "Timestamp;Interface;send;receive" > "$output_file"
 
 # Run iftop in a loop and save data with timestamps
 while true
 do
     timestamp=$(date +"%H:%M:%S")
-    iftop_output=$(iftop -N -t -s 1 -i "$interface" 2>&1)
+    iftop_output=$(~/.local_ubuntu/sbin/iftop -N -t -s 2 -i "$interface" 2>&1)
 
     if echo "$iftop_output" | grep -q "$host"; then
         echo -e "$timestamp: ${GREEN}Communication with $host found.${RESET}"
@@ -41,7 +41,7 @@ do
         send_value=0
         receive_value=0
     fi
-    echo "$timestamp,$interface,$send_value,$receive_value" >> "$output_file"
+    echo "$timestamp;$interface;$send_value;$receive_value" >> "$output_file"
 
     sleep 1  # Adjust the interval as needed
 done
