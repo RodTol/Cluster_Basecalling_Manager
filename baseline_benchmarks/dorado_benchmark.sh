@@ -15,11 +15,11 @@ echo -e "${RED}Save path${RESET}"
 echo $save_path
 
 launch_time=$(date +'%H-%M')
-run_name="run_${launch_time}_dgx001"
+run_name="dorado_${launch_time}_benchmark_dgx001"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
-mkdir -p  /AB_20T_output/nanopore_output/run_logs/$run_name
-log_path=/AB_20T_output/nanopore_output/run_logs/$run_name
+mkdir -p  /u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
+log_path=/u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
 
 echo -e "${RED}log path${RESET}"
 echo $log_path
@@ -31,28 +31,26 @@ dcgmi stats -g 2 -e
 
 dcgmi stats -g 2 -s $run_name
 
-spack load ont-guppy@6.1.7-cuda
-
 #start gpu monitoring
 nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory --format=csv -l 1 -f $log_path/gpu_log_$run_name.csv &
 gpu_pid=$!
 
 #start network monitoring
-/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp18s0 nfs01.ib $run_name /AB_20T_output/nanopore_output/run_logs/$run_name/connection_log_$run_name.csv &
+/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp18s0 nfs01.ib $run_name $log_path/connection_log_$run_name.csv &
 net_pid=$!
 
-guppy_basecaller_supervisor --num_clients 25 \
---input_path $1 \
---save_path $save_path \
---config dna_r9.4.1_450bps_hac.cfg \
---port 42837
-
+dorado basecaller \
+    /u/dssc/tolloi/dorado_0.4.0_pre_built/bin/models/dna_r10.4.1_e8.2_400bps_hac@v3.5.2 \
+    $1/   \
+    -x cuda:0,1,2,3  \
+    --emit-fastq \
+    > $2/output_$run_name.fastq
+    
+    
 #end net monitoring
 kill $net_pid
 #end gpu monitoring
 kill $gpu_pid
-
-spack unload ont-guppy@6.1.7-cuda
 
 dcgmi stats -x $run_name
 

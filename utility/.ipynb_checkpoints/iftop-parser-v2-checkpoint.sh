@@ -12,7 +12,7 @@ echo "Select host (nfs01.ib)"
 host=$2
 echo $host
 
-output_file=$4
+output_file=$3
 echo "Output file: $output_file"
 
 # Add column headers to the CSV file

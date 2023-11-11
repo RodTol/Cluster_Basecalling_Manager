@@ -1,0 +1,82 @@
+[0;31mInput directory[0m
+/u/dssc/tolloi//scratch/10G_dataset_POD5/
+[0;31mSave path[0m
+/u/dssc/tolloi//scratch/run_prova/
+[0;31mName of this run[0m
+dorado_12-00_benchmark_dgx001
+[0;31mlog path[0m
+/u/dssc/tolloi/scratch/benchmark_run_logs/dorado_12-00_benchmark_dgx001
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for dorado_12-00_benchmark_dgx001.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /u/dssc/tolloi/scratch/benchmark_run_logs/dorado_12-00_benchmark_dgx001/connection_log_dorado_12-00_benchmark_dgx001.csv
+[2023-11-11 12:00:56.250] [info] > Creating basecall pipeline
+12:00:55:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:00:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:03:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-11-11 12:01:07.301] [info]  - set batch size for cuda:0 to 4608
+[2023-11-11 12:01:07.448] [info]  - set batch size for cuda:1 to 4608
+[2023-11-11 12:01:07.837] [info]  - set batch size for cuda:2 to 4608
+[2023-11-11 12:01:08.050] [info]  - set batch size for cuda:3 to 4608
+12:01:08:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:11:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:16:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:20:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:24:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:29:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:33:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:40:  [0;31mNo communication with nfs01.ib found.[0m
+12:01:44:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-11-11 12:01:49.147] [info] > Simplex reads basecalled: 44006
+[2023-11-11 12:01:49.147] [info] > Basecalled @ Samples/s: 2.619406e+08
+[2023-11-11 12:01:49.570] [info] > Finished
+Successfully stopped recording stats for dorado_12-00_benchmark_dgx001.
+Successfully retrieved statistics for job: dorado_12-00_benchmark_dgx001. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Sat Nov 11 12:00:55 2023                |
+| End Time                           | Sat Nov 11 12:01:50 2023                |
+| Total Execution Time (sec)         | 54.8                                    |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 47980                                   |
+| Power Usage (Watts)                | Avg: 1585.85, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 40913338368                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 432 entries, 0 to 431
+Data columns (total 4 columns):
+ #   Column                   Non-Null Count  Dtype 
+---  ------                   --------------  ----- 
+ 0   timestamp                432 non-null    object
+ 1    pci.bus_id              432 non-null    object
+ 2    utilization.gpu [%]     432 non-null    object
+ 3    utilization.memory [%]  432 non-null    object
+dtypes: object(4)
+memory usage: 13.6+ KB
+None
+[0;32m---------------------------------[0m

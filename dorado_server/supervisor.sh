@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 #activate python venv
-source ~/python_venv/nv-dashboard/bin/activate
+#source ~/python_venv/nv-dashboard/bin/activate
 
 RED="\033[0;31m"
 GREEN="\033[0;32m"
@@ -15,14 +15,16 @@ echo -e "${RED}Save path${RESET}"
 echo $save_path
 
 launch_time=$(date +'%H-%M')
-run_name="run_${launch_time}_dgx001"
+run_name="run_${launch_time}_gpu003"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
-mkdir -p  /AB_20T_output/nanopore_output/run_logs/$run_name
-log_path=/AB_20T_output/nanopore_output/run_logs/$run_name
+mkdir -p  /u/dssc/tolloi/scratch/$run_name
+log_path=/u/dssc/tolloi/scratch/$run_name
 
 echo -e "${RED}log path${RESET}"
 echo $log_path
+
+dorado_server_path=/u/dssc/tolloi/ont-dorado-server/bin/
 
 echo "Start run"
 dcgmi stats -g 2 -a -v
@@ -31,28 +33,24 @@ dcgmi stats -g 2 -e
 
 dcgmi stats -g 2 -s $run_name
 
-spack load ont-guppy@6.1.7-cuda
-
 #start gpu monitoring
 nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory --format=csv -l 1 -f $log_path/gpu_log_$run_name.csv &
 gpu_pid=$!
 
 #start network monitoring
-/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp18s0 nfs01.ib $run_name /AB_20T_output/nanopore_output/run_logs/$run_name/connection_log_$run_name.csv &
-net_pid=$!
+#/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp216s0 nfs01.ib $run_name &
+#net_pid=$!
 
-guppy_basecaller_supervisor --num_clients 25 \
+$dorado_server_path/ont_basecaller_supervisor --num_clients 5 \
 --input_path $1 \
 --save_path $save_path \
---config dna_r9.4.1_450bps_hac.cfg \
+--config dna_r10.4.1_e8.2_400bps_hac.cfg \
 --port 42837
 
 #end net monitoring
-kill $net_pid
+#kill $net_pid
 #end gpu monitoring
 kill $gpu_pid
-
-spack unload ont-guppy@6.1.7-cuda
 
 dcgmi stats -x $run_name
 
@@ -60,10 +58,10 @@ dcgmi stats -j $run_name
 
 dcgmi stats -g 2 -a -v
 
-python3 ~/Cluster_Basecalling_Manager/utility/gpu_average.py $log_path/gpu_log_$run_name.csv
-python3 ~/Cluster_Basecalling_Manager/utility/net_average.py $log_path/connection_log_$run_name.csv
+#python3 ~/Cluster_Basecalling_Manager/utility/gpu_average.py $log_path/gpu_log_$run_name.csv
+#python3 ~/Cluster_Basecalling_Manager/utility/net_average.py $log_path/connection_log_$run_name.csv
 
 #deactivate python venv
-deactivate
+#deactivate
 
 echo -e "${GREEN}---------------------------------${RESET}"
