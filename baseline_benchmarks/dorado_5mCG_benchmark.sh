@@ -15,7 +15,7 @@ echo -e "${RED}Save path${RESET}"
 echo $save_path
 
 launch_time=$(date +'%H-%M')
-run_name="dorado_${launch_time}_benchmark_dgx001"
+run_name="dorado_${launch_time}_benchmark_5mCG_dgx001"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
 
@@ -48,7 +48,8 @@ net_pid=$!
 dorado basecaller \
     /u/dssc/tolloi/dorado_0.4.0_pre_built/bin/models/dna_r10.4.1_e8.2_400bps_hac@v3.5.2 \
     $1/   \
-    -x cuda:0,1,2,3  \
+    -x cuda:0,1,2,3,4,5,6,7  \
+    --modified-bases 5mCG \
     --emit-fastq \
     > $2/output_$run_name.fastq
     

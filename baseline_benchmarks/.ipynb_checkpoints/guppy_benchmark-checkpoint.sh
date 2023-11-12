@@ -15,9 +15,13 @@ echo -e "${RED}Save path${RESET}"
 echo $save_path
 
 launch_time=$(date +'%H-%M')
-run_name="dorado_${launch_time}_benchmark_dgx001"
+run_name="guppy_${launch_time}_benchmark_dgx001"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
+
+guppy_path=/orfeo/opt/programs/intel/almalinux9/ont-guppy-gpu/6.5.7/bin
+echo "Guppy path"
+echo $guppy_path
 
 #ceph
 #mkdir -p  /u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
@@ -37,6 +41,8 @@ dcgmi stats -g 2 -e
 
 dcgmi stats -g 2 -s $run_name
 
+spack load ont-guppy@6.1.7-cuda
+
 #start gpu monitoring
 nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory --format=csv -l 1 -f $log_path/gpu_log_$run_name.csv &
 gpu_pid=$!
@@ -45,18 +51,23 @@ gpu_pid=$!
 /u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp18s0 nfs01.ib $run_name $log_path/connection_log_$run_name.csv &
 net_pid=$!
 
-dorado basecaller \
-    /u/dssc/tolloi/dorado_0.4.0_pre_built/bin/models/dna_r10.4.1_e8.2_400bps_hac@v3.5.2 \
-    $1/   \
-    -x cuda:0,1,2,3  \
-    --emit-fastq \
-    > $2/output_$run_name.fastq
+$guppy_path/guppy_basecaller \
+    --input_path $1 \
+    --save_path $2/output_$run_name/ \
+    --config dna_r10.4.1_e8.2_400bps_hac.cfg \
+    --device cuda:0,1,2,3,4,5,6,7 \
+    --records_per_fastq 0 \
+    --num_callers 16 \
+    --gpu_runners_per_device 8 \
+    --chunks_per_runner 2048
     
     
 #end net monitoring
 kill $net_pid
 #end gpu monitoring
 kill $gpu_pid
+
+spack unload ont-guppy@6.1.7-cuda
 
 dcgmi stats -x $run_name
 

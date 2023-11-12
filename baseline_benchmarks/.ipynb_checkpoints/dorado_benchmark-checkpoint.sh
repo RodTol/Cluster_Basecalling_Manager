@@ -18,8 +18,14 @@ launch_time=$(date +'%H-%M')
 run_name="dorado_${launch_time}_benchmark_dgx001"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
-mkdir -p  /u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
-log_path=/u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
+
+#ceph
+#mkdir -p  /u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
+#log_path=/u/dssc/tolloi/scratch/benchmark_run_logs/$run_name
+
+#nfs01
+mkdir -p  /AB_20T_output/nanopore_output/benchmark_run_logs/$run_name
+log_path=/AB_20T_output/nanopore_output/benchmark_run_logs/$run_name
 
 echo -e "${RED}log path${RESET}"
 echo $log_path
