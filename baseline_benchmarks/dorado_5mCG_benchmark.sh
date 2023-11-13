@@ -50,8 +50,7 @@ dorado basecaller \
     $1/   \
     -x cuda:0,1,2,3,4,5,6,7  \
     --modified-bases 5mCG \
-    --emit-fastq \
-    > $2/output_$run_name.fastq
+    > $2/output_$run_name.bam
     
     
 #end net monitoring

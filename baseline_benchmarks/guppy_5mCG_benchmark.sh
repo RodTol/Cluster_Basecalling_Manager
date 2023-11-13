@@ -41,7 +41,7 @@ dcgmi stats -g 2 -e
 
 dcgmi stats -g 2 -s $run_name
 
-spack load ont-guppy@6.1.7-cuda
+#spack load ont-guppy@6.1.7-cuda
 
 #start gpu monitoring
 nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory --format=csv -l 1 -f $log_path/gpu_log_$run_name.csv &
@@ -55,10 +55,12 @@ $guppy_path/guppy_basecaller \
     --input_path $1 \
     --save_path $2/output_$run_name \
     --config dna_r10.4.1_e8.2_400bps_modbases_5mc_cg_hac.cfg \
+    --bam_out \
     --index \
     --device cuda:0,1,2,3,4,5,6,7 \
     --records_per_fastq 0 \
     --progress_stats_frequency 600 \
+    --num_base_mod_threads 36
     --num_callers 16 \
     --gpu_runners_per_device 8 \
     --chunks_per_runner 2048
@@ -69,7 +71,7 @@ kill $net_pid
 #end gpu monitoring
 kill $gpu_pid
 
-spack unload ont-guppy@6.1.7-cuda
+#spack unload ont-guppy@6.1.7-cuda
 
 dcgmi stats -x $run_name
 
