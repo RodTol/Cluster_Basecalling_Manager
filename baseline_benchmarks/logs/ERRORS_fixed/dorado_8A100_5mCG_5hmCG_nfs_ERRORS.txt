@@ -1,0 +1,67 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/benchmark_run_output/
+[0;31mName of this run[0m
+dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/benchmark_run_logs/dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/benchmark_run_logs/dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001/connection_log_dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001.csv
+21:19:51:  [0;31mNo communication with nfs01.ib found.[0m
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  could not find matching modification model for dna_r10.4.1_e8.2_400bps_hac@v3.5.2
+21:19:54:  [0;31mNo communication with nfs01.ib found.[0m
+./dorado_5mCG_5hmCG_benchmark.sh: line 53: 3213628 Aborted                 (core dumped) dorado basecaller /u/dssc/tolloi/dorado_0.4.0_pre_built/bin/models/dna_r10.4.1_e8.2_400bps_hac@v3.5.2 $1/ -x cuda:0,1,2,3,4,5,6,7 --modified-bases 5mCG_5hmCG > $2/output_$run_name.bam
+Successfully stopped recording stats for dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001.
+Successfully retrieved statistics for job: dorado_hac_5mCG_5hmCG_21-19_benchmark_dgx001. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Thu Nov 16 21:19:51 2023                |
+| End Time                           | Thu Nov 16 21:19:57 2023                |
+| Total Execution Time (sec)         | 5.9                                     |
+| No. of Processes                   | 0                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 0                                       |
+| Power Usage (Watts)                | Avg: N/A, Max: N/A, Min: N/A            |
+| Max GPU Memory Used (bytes)        | 0                                       |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | Not Specified                           |
+| PCIe Replay Warnings               | Not Specified                           |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | Not Supported                           |
+|        - Thermal (%)               | Not Supported                           |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | Not Specified                           |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 48 entries, 0 to 47
+Data columns (total 4 columns):
+ #   Column                   Non-Null Count  Dtype 
+---  ------                   --------------  ----- 
+ 0   timestamp                48 non-null     object
+ 1    pci.bus_id              48 non-null     object
+ 2    utilization.gpu [%]     48 non-null     object
+ 3    utilization.memory [%]  48 non-null     object
+dtypes: object(4)
+memory usage: 1.6+ KB
+None
+[0;32m---------------------------------[0m

@@ -1,0 +1,80 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/subset_23G_CliveOME_5mc_dataset_POD5/
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/benchmark_run_output/
+[0;31mName of this run[0m
+guppy_hac_5mCG_12-10_benchmark_gpu004
+Guppy path
+/orfeo/opt/programs/intel/almalinux9/ont-guppy-gpu/6.5.7/bin
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/benchmark_run_logs/guppy_hac_5mCG_12-10_benchmark_gpu004
+Start run
+Select interface
+ibp216s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/benchmark_run_logs/guppy_hac_5mCG_12-10_benchmark_gpu004/connection_log_guppy_hac_5mCG_12-10_benchmark_gpu004.csv
+12:10:29:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:30:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:31:  [0;31mNo communication with nfs01.ib found.[0m
+ONT Guppy basecalling software version 6.5.7+ca6d6af, minimap2 version 2.24-r1122
+config file:        /orfeo/cephfs/opt/programs/intel/almalinux9/ont-guppy-gpu/6.5.7/data/dna_r10.4.1_e8.2_400bps_modbases_5mc_cg_hac.cfg
+model file:         /orfeo/cephfs/opt/programs/intel/almalinux9/ont-guppy-gpu/6.5.7/data/template_r10.4.1_e8.2_400bps_hac.jsn
+input path:         /AB_20T_input/dataset/subset_23G_CliveOME_5mc_dataset_POD5/
+save path:          /AB_20T_output/nanopore_output/benchmark_run_output//output_guppy_hac_5mCG_12-10_benchmark_gpu004
+chunk size:         2000
+chunks per runner:  2048
+minimum qscore:     9
+records per file:   0
+num basecallers:    16
+gpu device:         cuda:0:100%
+kernel path:        
+runners per device: 8
+
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/opt/programs/intel/almalinux9/ont-guppy-gpu/6.5.7/bin
+12:10:32:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:33:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:34:  [0;31mNo communication with nfs01.ib found.[0m
+Found 21 input read files to process.
+Init time: 2755 ms
+[PROG_STAT_HDR] time elapsed(secs), time remaining (estimate), total reads processed, total reads (estimate), interval(secs), interval reads processed, interval bases processed
+12:10:35:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:36:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:37:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:38:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:39:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:40:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:41:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:42:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:43:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:44:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:45:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:46:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:47:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:48:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:49:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:50:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:51:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:52:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:53:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:54:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:55:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:56:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:57:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:58:  [0;31mNo communication with nfs01.ib found.[0m
+12:10:59:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:00:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:01:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:02:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:03:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:04:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:05:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:06:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:07:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:08:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:09:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:10:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:11:  [0;31mNo communication with nfs01.ib found.[0m
+12:11:12:  [0;31mNo communication with nfs01.ib found.[0m
