@@ -41,3 +41,48 @@ Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mea
 write        1640.27    1640.27    1640.27       0.00     410.07     410.07     410.07       0.00  117.05373         NA            NA     0     20  20    1   1     1        1         0    0    300 33554432  4194304  192000.0 POSIX      0
 read         1800.65    1800.65    1800.65       0.00     450.16     450.16     450.16       0.00  106.62800         NA            NA     0     20  20    1   1     1        1         0    0    300 33554432  4194304  192000.0 POSIX      0
 Finished            : Sat Nov 18 16:09:39 2023
+###############################################
+tolloi@dgx001:/orfeo/cephfs/home/dssc/tolloi/ior-3.3.0/src$ mpirun -np 20 --mca btl ^openib ./ior -t 4m -b 32m -s 300 -C -F -e -o /AB_20T_output/
+IOR-3.3.0: MPI Coordinated Test of Parallel I/O
+Began               : Sat Nov 18 16:58:06 2023
+Command line        : ./ior -t 4m -b 32m -s 300 -C -F -e -o /AB_20T_output/
+Machine             : Linux dgx001.hpc
+TestID              : 0
+StartTime           : Sat Nov 18 16:58:06 2023
+Path                : /AB_20T_output
+FS                  : 18.2 TiB   Used FS: 13.6%   Inodes: 1862.6 Mi   Used Inodes: 0.0%
+
+Options: 
+api                 : POSIX
+apiVersion          : 
+test filename       : /AB_20T_output/
+access              : file-per-process
+type                : independent
+segments            : 300
+ordering in a file  : sequential
+ordering inter file : constant task offset
+task offset         : 1
+nodes               : 1
+tasks               : 20
+clients per node    : 20
+repetitions         : 1
+xfersize            : 4 MiB
+blocksize           : 32 MiB
+aggregate filesize  : 187.50 GiB
+
+Results: 
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+write     1473.41    368.35     13.97       32768      4096       0.002884   130.31     29.40      130.31     0   
+read      1554.86    388.74     15.25       32768      4096       0.008735   123.48     5.21       123.48     0   
+remove    -          -          -           -          -          -          -          -          10.27      0   
+Max Write: 1473.41 MiB/sec (1544.98 MB/sec)
+Max Read:  1554.86 MiB/sec (1630.39 MB/sec)
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write        1473.41    1473.41    1473.41       0.00     368.35     368.35     368.35       0.00  130.30989         NA            NA     0     20  20    1   1     1        1         0    0    300 33554432  4194304  192000.0 POSIX      0
+read         1554.86    1554.86    1554.86       0.00     388.72     388.72     388.72       0.00  123.48349         NA            NA     0     20  20    1   1     1        1         0    0    300 33554432  4194304  192000.0 POSIX      0
+Finished            : Sat Nov 18 17:02:30 2023
+
