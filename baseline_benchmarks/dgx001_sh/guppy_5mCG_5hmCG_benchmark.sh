@@ -60,7 +60,7 @@ $guppy_path/guppy_basecaller \
     --device cuda:all:100% \
     --records_per_fastq 0 \
     --progress_stats_frequency 600 \
-    --num_base_mod_threads 96\
+    --num_base_mod_threads 42\
     --num_callers 16 \
     --gpu_runners_per_device 8 \
     --chunks_per_runner 2048

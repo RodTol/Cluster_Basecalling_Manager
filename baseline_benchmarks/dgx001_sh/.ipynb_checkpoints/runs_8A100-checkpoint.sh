@@ -40,7 +40,7 @@ cd /u/dssc/tolloi/Cluster_Basecalling_Manager/baseline_benchmarks/dgx001_sh
 #./dorado_5mCG_5hmCG_benchmark.sh /AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ /AB_20T_output/nanopore_output/benchmark_run_output/ > /u/dssc/tolloi/Cluster_Basecalling_Manager/baseline_benchmarks/logs/dgx001_logs/dorado_8A100_5mCG_5hmCG_nfs.txt 2>&1 #lanciata  HO DOVUTO USARE hac@4.1.0 PERCHÈ 3.5.2 NON HA 5mCG_5hmCG https://github.com/nanoporetech/dorado/issues/278
 
 #run 5mCG_5hmCG hac guppy
-./guppy_5mCG_5hmCG_benchmark.sh /AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ /AB_20T_output/nanopore_output/benchmark_run_output/ > /u/dssc/tolloi/Cluster_Basecalling_Manager/baseline_benchmarks/logs/dgx001_logs/guppy_8A100_5mCG_5hmCG_nfs.txt 2>&1 #lanciata con 50 threads
+./guppy_5mCG_5hmCG_benchmark.sh /AB_20T_input/dataset/subset_122G_CliveOME_5mc_dataset_POD5 /AB_20T_output/nanopore_output/benchmark_run_output/ > /u/dssc/tolloi/Cluster_Basecalling_Manager/baseline_benchmarks/logs/dgx001_logs/guppy_8A100_5mCG_5hmCG_nfs.txt 2>&1 #lanciata con 50 threads
 
 #-----------------------------------------------------------------------------
 #WORK IN PROGRESS
