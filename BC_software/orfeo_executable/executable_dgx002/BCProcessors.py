@@ -218,7 +218,7 @@ class BCEngine:
                 self._sleep_before_next_batch(start_time, end_time)
         # exiting while loop: log it somehow
         self.PROCESSING_STATE = bc_status.STOPPED # 'STOPPED'
-        print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine.id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
+        print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine_id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
 
     def _request_a_batch(self, api_url, engine_id, optimal_request_size):
         """

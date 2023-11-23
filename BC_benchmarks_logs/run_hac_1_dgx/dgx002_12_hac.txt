@@ -1,0 +1,88 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ASSIGNED_249219149584295626119978541643785640038_dgx002_engine
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/BC_run_output/run_hac_1_dgx/TMPOUTPUT_249219149584295626119978541643785640038_dgx002_engine
+[0;31mNum_clients[0m
+25
+[0;31mName of this run[0m
+BC_hac_25_clients_16-56_benchmark_dgx002
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/BC_run_logs/BC_hac_25_clients_16-56_benchmark_dgx002
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for BC_hac_25_clients_16-56_benchmark_dgx002.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/BC_run_logs/BC_hac_25_clients_16-56_benchmark_dgx002/connection_log_BC_hac_25_clients_16-56_benchmark_dgx002.csv
+ONT basecaller supervisor version 7.1.4+d7df870c0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+Found 34 input read files to process.
+Processing ...
+16:56:57:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:02:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:05:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:10:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:19:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:22:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:26:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:30:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:36:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:41:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:45:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:49:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:52:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:55:  [0;31mNo communication with nfs01.ib found.[0m
+16:57:58:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:01:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:07:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:10:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:18:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:21:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:25:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:36:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:40:  [0;31mNo communication with nfs01.ib found.[0m
+16:58:43:  [0;31mNo communication with nfs01.ib found.[0m
+Caller time: 108337 ms, Samples called: 53616153471, samples/s: 4.94902e+08
+All instances of ont_basecall_client completed successfully.
+Successfully stopped recording stats for BC_hac_25_clients_16-56_benchmark_dgx002.
+Successfully retrieved statistics for job: BC_hac_25_clients_16-56_benchmark_dgx002. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Mon Nov 20 16:56:57 2023                |
+| End Time                           | Mon Nov 20 16:58:46 2023                |
+| Total Execution Time (sec)         | 108.36                                  |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 252592                                  |
+| Power Usage (Watts)                | Avg: 2947.59, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 40758149120                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+[0;32m---------------------------------[0m

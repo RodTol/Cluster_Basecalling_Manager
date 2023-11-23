@@ -17,7 +17,7 @@ echo $save_path
 launch_time=$(date +'%H-%M')
 
 #CHECK NUM_CLIENT IN BCConfiguration.py
-num_clients=5
+num_clients=8
 echo -e "${RED}Num_clients${RESET}"
 echo $num_clients
 
@@ -50,7 +50,7 @@ nvidia-smi --query-gpu=timestamp,pci.bus_id,utilization.gpu,utilization.memory -
 gpu_pid=$!
 
 #start network monitoring
-/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp18s0 nfs01.ib $run_name $log_path/connection_log_$run_name.csv &
+/u/dssc/tolloi/Cluster_Basecalling_Manager/utility/iftop-parser-v2.sh ibp216s0 nfs01.ib $run_name $log_path/connection_log_$run_name.csv &
 net_pid=$!
 
 $dorado_server_path/ont_basecaller_supervisor --num_clients $num_clients \

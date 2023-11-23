@@ -8,7 +8,7 @@ counter=1
 
 while true; do
     # Construct the output log file name with the counter
-    output_log_path="/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_benchmarks/run_hac_1_dgx"
+    output_log_path="/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_benchmarks_logs/run_hac_1_dgx-1_gpu"
     output_log_file="${output_log_path}/gpu001_${counter}_hac.txt"
 
     # Check if the file already exists, if not, break the loop

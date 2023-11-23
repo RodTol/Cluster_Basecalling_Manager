@@ -281,10 +281,11 @@ class BCController:
             # NOTHING TO RETURN
             return json.dumps({"ok": True})
             
-
+#Launching the flask server
+#app.run decide on which host (0.0.0.0 means all) and port to listen
 if __name__ == '__main__':
     RESTFulAPI = BCController()
-    RESTFulAPI.app.run()
+    RESTFulAPI.app.run(host='0.0.0.0', port=40765)
 
 
 ### NOTES:

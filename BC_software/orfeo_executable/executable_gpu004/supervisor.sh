@@ -21,7 +21,7 @@ num_clients=5
 echo -e "${RED}Num_clients${RESET}"
 echo $num_clients
 
-run_name="BC_hac_${num_clients}_clients_${launch_time}_benchmark_gpu004"
+run_name="BC_sup_${num_clients}_clients_${launch_time}_benchmark_gpu004"
 echo -e "${RED}Name of this run${RESET}"
 echo $run_name
 
@@ -56,7 +56,7 @@ net_pid=$!
 $dorado_server_path/ont_basecaller_supervisor --num_clients $num_clients \
 --input_path $1 \
 --save_path $save_path \
---config dna_r10.4.1_e8.2_400bps_hac.cfg \
+--config dna_r10.4.1_e8.2_400bps_sup.cfg \
 --port 42837 
     
 #end net monitoring
