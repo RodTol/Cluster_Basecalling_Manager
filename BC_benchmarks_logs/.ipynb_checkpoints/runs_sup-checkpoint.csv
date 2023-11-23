@@ -1,0 +1,4 @@
+Setup,samples/s-sum,Gb/s-sum,total-time
+sup_1_dgx,9.63E+07,9.63E-03,9369
+sup_1_dgx-1_gpu,1.05E+08,1.05E-02,8783
+sup_2_dgx,1.92E+08,1.92E-02,5107
