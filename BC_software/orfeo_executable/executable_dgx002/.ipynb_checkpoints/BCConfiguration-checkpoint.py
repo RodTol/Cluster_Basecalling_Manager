@@ -6,7 +6,7 @@ class Conf:
     """
 
     mngt_batch_size = 3
-    mngt_outputdir = '/AB_20T_output/nanopore_output/BC_run_output/run_sup_2_dgx-1_gpu'
+    mngt_outputdir = '/AB_20T_output/nanopore_output/BC_run_output/run_sup_2_dgx-2_gpu'
     mngt_inputdir = '/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5'
 
     #dgx001 hosting
@@ -15,11 +15,11 @@ class Conf:
     request_work_url =  "http://127.0.0.1:40765/assignwork"
     
     engine_external_script = "/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_dgx002/launch_supervisor.sh"
-    engine_outputdir = "/AB_20T_output/nanopore_output/BC_run_output/run_sup_2_dgx-1_gpu"
+    engine_outputdir = "/AB_20T_output/nanopore_output/BC_run_output/run_sup_2_dgx-2_gpu"
     engine_inputdir = "/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5"
     engine_polling_interval = 1
     engine_id = "dgx002_engine"
-    engine_optimal_request_size = 80
+    engine_optimal_request_size = 268
     
     #dgx001 hosting
     #keep_alive_terminate_url =  "http://10.128.2.161:5000/completed"

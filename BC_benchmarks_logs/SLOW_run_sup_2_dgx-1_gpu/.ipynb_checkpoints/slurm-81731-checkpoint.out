@@ -1,6 +1,5 @@
-dgx002
-[0;31mdgx002[0m
-Fri 24 Nov 2023 05:13:18 PM CET
+[0;31m[2023-11-25 09:50:01] dgx002[0m
+[0;31m[2023-11-25 09:50:01] BC_manager is running[0m
 Log files path
 /AB_20T_output/nanopore_output/server_logs/
 ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
@@ -18,31 +17,10 @@ By running, copying or accessing this software, you are demonstrating your accep
 The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
 
 
-BC CONTROLLER PROBLEM! AS PER PROTOCOL, ABORTING PROCESSING AND SHUTTING DOWN! HTTPConnectionPool(host='127.0.0.1', port=40765): Max retries exceeded with url: /assignwork?engineid=dgx002_engine&batchsize=80 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14b8dce77c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-[0;32m[2023-11-24 17:13:28] Processors has finished on dgx002[0m
-[0;31mdgx001[0m
-Fri 24 Nov 2023 05:13:30 PM CET
+[0;31m[2023-11-25 09:50:02] gpu004[0m
 Log files path
 /AB_20T_output/nanopore_output/server_logs/
-ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
-log path:            /AB_20T_output/nanopore_output/server_logs/
-chunk size:          2000
-chunks per runner:   208
-max queued reads:    2000
-num basecallers:     4
-num socket threads:  2
-max returned events: 256000
-gpu device:          cuda:0,1,2,3,4,5,6,7
-runners per device:  12
-Use of this software is permitted solely under the terms of the end user license agreement (EULA).
-By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
-The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
-
-
-BC CONTROLLER PROBLEM! AS PER PROTOCOL, ABORTING PROCESSING AND SHUTTING DOWN! HTTPConnectionPool(host='10.128.2.162', port=40765): Max retries exceeded with url: /assignwork?engineid=dgx001_engine&batchsize=80 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x148f7337dc10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-[0;32m[2023-11-24 17:13:41] Processors has finished on dgx001[0m
-[0;31mgpu004[0m
-Fri Nov 24 05:13:42 PM CET 2023
+[0;31m[2023-11-25 09:50:04] dgx001[0m
 Log files path
 /AB_20T_output/nanopore_output/server_logs/
 ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
@@ -60,6 +38,21 @@ By running, copying or accessing this software, you are demonstrating your accep
 The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
 
 
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
 
 Config loaded:
 config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
@@ -67,5 +60,27 @@ model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data
 model version id           None
 adapter scaler model file: None
 Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu004/42837
-BC CONTROLLER PROBLEM! AS PER PROTOCOL, ABORTING PROCESSING AND SHUTTING DOWN! HTTPConnectionPool(host='10.128.2.162', port=40765): Max retries exceeded with url: /assignwork?engineid=gpu004_engine&batchsize=8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1466802f0850>: Failed to establish a new connection: [Errno 111] Connection refused'))
-[0;32m[2023-11-24 17:13:52] Processors has finished on gpu004[0m
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_dgx002/42837
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_dgx001/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Traceback (most recent call last):
+  File "BCProcessors.py", line 302, in <module>
+    eng.begin_working()
+  File "BCProcessors.py", line 221, in begin_working
+    print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine.id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
+AttributeError: 'BCEngine' object has no attribute 'engine'
+[0;32m[2023-11-25 10:54:22] Processors has finished on dgx001[0m

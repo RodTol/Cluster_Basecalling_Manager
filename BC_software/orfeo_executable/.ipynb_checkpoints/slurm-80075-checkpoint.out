@@ -1,0 +1,49 @@
+[0;32m[2023-11-24 18:04:23] dgx002[0m
+[0;31m[2023-11-24 18:04:23] BC_manager is running[0m
+[0;31m[2023-11-24 18:04:27] gpu004[0m
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-11-24 18:04:28] dgx001[0m
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu004/42837
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+srun: Job 80075 step creation temporarily disabled, retrying (Requested nodes are busy)
+[0;32m[2023-11-24 18:04:37] Processors has finished on gpu004[0m
+./server.sh: line 15: 1310968 Killed                  $dorado_server_path/dorado_basecall_server --config dna_r10.4.1_e8.2_400bps_sup.cfg --log_path $log_path --device cuda:0,1,2,3,4,5,6,7 --port 42837
+srun: Job 80075 step creation still disabled, retrying (Requested nodes are busy)

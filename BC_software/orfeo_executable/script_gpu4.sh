@@ -3,8 +3,10 @@ RED="\033[0;31m"
 GREEN="\033[0;32m"
 RESET="\033[0m"  # Reset color to default
 
-echo -e "${RED}$SLURM_JOB_NODELIST${RESET}"
-date
+current_time=$(date "+%Y-%m-%d %H:%M:%S")
+message="$SLURM_JOB_NODELIST"
+# Echo the time and message
+echo -e "${RED}[$current_time] $message${RESET}"
 
 cd /u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/
 source BC_venv_GPU/bin/activate
@@ -13,7 +15,7 @@ cd executable_gpu004
 ./server.sh &
 server_pid=$!
 
-sleep 10
+sleep 20
 python3 BCProcessors.py
 
 current_time=$(date "+%Y-%m-%d %H:%M:%S")

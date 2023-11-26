@@ -1,18 +1,18 @@
 #!/bin/bash
 #SBATCH --job-name=het-dorado
-#SBATCH --time=00:01:00
-#SBATCH -p DGX --ntasks-per-node=1 --nodes=1 --cpus-per-task=8 --gpus=0 --nodelist=dgx002
+#SBATCH --time=03:30:00
+#SBATCH -p DGX --ntasks-per-node=1 --nodes=1 --cpus-per-task=256 --gpus=8 --nodelist=dgx002
 #SBATCH hetjob
-#SBATCH -p DGX --ntasks-per-node=1 --nodes=1 --cpus-per-task=8 --nodelist=dgx001
+#SBATCH -p DGX --ntasks-per-node=1 --nodes=1 --cpus-per-task=256 --gpus=8 --nodelist=dgx001
 #SBATCH hetjob
-#SBATCH -p GPU --nodes=1 --ntasks-per-node=1 --cpus-per-task=1 --nodelist=gpu004
+#SBATCH -p GPU --nodes=1 --ntasks-per-node=1 --cpus-per-task=48 --nodelist=gpu004
+#SBATCH hetjob
+#SBATCH -p GPU --nodes=1 --ntasks-per-node=1 --cpus-per-task=48 --nodelist=gpu003
 
-# Firstly setup the BCManager
-srun --het-group=0 BCM_start.sh
-
-#Then launch each server and BCProcess
-srun --het-group=0 script_dgx2.sh
-
-srun --het-group=1 script_dgx1.sh
-
-srun --het-group=2 script_gpu4.sh
+echo "2_dgx-2_gpu"
+srun --het-group=0 script_dgx2.sh &
+sleep 3
+srun --het-group=1 script_dgx1.sh &
+srun --het-group=2 script_gpu4.sh &
+srun --het-group=3 script_gpu3.sh &
+wait

@@ -1,0 +1,293 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ASSIGNED_166926161178123077313340204910198920946_dgx001_engine
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/BC_run_output/run_sup_2_dgx-1_gpu/TMPOUTPUT_166926161178123077313340204910198920946_dgx001_engine
+[0;31mNum_clients[0m
+25
+[0;31mName of this run[0m
+BC_sup_25_clients_14-43_benchmark_dgx001
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/BC_run_logs/BC_sup_25_clients_14-43_benchmark_dgx001
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for BC_sup_25_clients_14-43_benchmark_dgx001.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/BC_run_logs/BC_sup_25_clients_14-43_benchmark_dgx001/connection_log_BC_sup_25_clients_14-43_benchmark_dgx001.csv
+ONT basecaller supervisor version 7.1.4+d7df870c0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+Found 70 input read files to process.
+Processing ...
+14:43:20:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:34: [0;32mCommunication with nfs01.ib found.[0m
+14:43:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:43:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:04:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:09:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:14:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:44:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:03:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:07:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:10:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:16:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:20:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:26:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:30:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:33:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:37: [0;32mCommunication with nfs01.ib found.[0m
+14:45:41:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:45:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:48: [0;32mCommunication with nfs01.ib found.[0m
+14:45:51:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:55:  [0;31mNo communication with nfs01.ib found.[0m
+14:45:58:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:02:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:05:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:11:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:14:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:28:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:31:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:41:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:46:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:52:  [0;31mNo communication with nfs01.ib found.[0m
+14:46:57:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:02:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:07:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:12:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:17:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:20:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:26:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:32:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:42:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:47:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:51:  [0;31mNo communication with nfs01.ib found.[0m
+14:47:58:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:03:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:06:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:18:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:27:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:33:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:37: [0;32mCommunication with nfs01.ib found.[0m
+14:48:42:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:48:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:53:  [0;31mNo communication with nfs01.ib found.[0m
+14:48:57:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:02:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:08:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:16:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:28:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:41:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:49:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:03:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:09:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:14:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:43:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:48:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:53:  [0;31mNo communication with nfs01.ib found.[0m
+14:50:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:04:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:09:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:51:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:05:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:08:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:14:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:43: [0;32mCommunication with nfs01.ib found.[0m
+14:52:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:52:  [0;31mNo communication with nfs01.ib found.[0m
+14:52:56:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:00:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:03:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:09:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:14:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:33:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:41:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:45:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:48:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:51:  [0;31mNo communication with nfs01.ib found.[0m
+14:53:56: [0;32mCommunication with nfs01.ib found.[0m
+14:54:01:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:06:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:11:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:15:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:22:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:27: [0;32mCommunication with nfs01.ib found.[0m
+14:54:32:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:42:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:47:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:51:  [0;31mNo communication with nfs01.ib found.[0m
+14:54:57:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:02:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:07:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:11:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:17:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:22:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:27:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:31:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:42:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:45:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:52:  [0;31mNo communication with nfs01.ib found.[0m
+14:55:58:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:03:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:08:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:17:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:28:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:33:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:37:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:43: [0;32mCommunication with nfs01.ib found.[0m
+14:56:48:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:52:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:55:  [0;31mNo communication with nfs01.ib found.[0m
+14:56:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:02:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:08:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:13: [0;32mCommunication with nfs01.ib found.[0m
+14:57:18:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:23:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:28:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:34:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:38:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:47:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:57:59: [0;32mCommunication with nfs01.ib found.[0m
+14:58:04:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:09:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:29:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:33: [0;32mCommunication with nfs01.ib found.[0m
+14:58:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:58:59:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:04:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:10:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:13:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:19:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:24:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:28:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:34: [0;32mCommunication with nfs01.ib found.[0m
+14:59:39:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:44:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:49:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:54:  [0;31mNo communication with nfs01.ib found.[0m
+14:59:59:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:04:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:09:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:14:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:19:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:24:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:29:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:34:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:40:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:43:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:49:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:54:  [0;31mNo communication with nfs01.ib found.[0m
+15:00:59:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:02:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:09:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:14:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:17: [0;32mCommunication with nfs01.ib found.[0m
+15:01:21:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:26:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:31:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:36:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:41:  [0;31mNo communication with nfs01.ib found.[0m
+15:01:46:  [0;31mNo communication with nfs01.ib found.[0m
+Caller time: 1109502 ms, Samples called: 107312798790, samples/s: 9.67216e+07
+All instances of ont_basecall_client completed successfully.
+Successfully stopped recording stats for BC_sup_25_clients_14-43_benchmark_dgx001.
+Successfully retrieved statistics for job: BC_sup_25_clients_14-43_benchmark_dgx001. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Sat Nov 25 14:43:20 2023                |
+| End Time                           | Sat Nov 25 15:01:49 2023                |
+| Total Execution Time (sec)         | 1109.54                                 |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 3205113                                 |
+| Power Usage (Watts)                | Avg: 2954.68, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 39715864576                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+[0;32m---------------------------------[0m
