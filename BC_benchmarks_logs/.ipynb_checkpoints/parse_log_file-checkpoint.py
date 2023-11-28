@@ -1,9 +1,11 @@
 import re
 import os
+import sys
 from datetime import datetime
 
 # Specify the path to the log file
-dir_file_log = input("Dir with log file:\n")
+#dir_file_log = input("Dir with log file:\n")
+dir_file_log = sys.argv[1]
 log_file_path = os.path.join(dir_file_log,"BC_manager_log.txt")
 
 # Define regular expressions to match job IDs, engine IDs, and timestamps

@@ -17,7 +17,7 @@ echo $save_path
 launch_time=$(date +'%H-%M')
 
 #CHECK NUM_CLIENT IN BCConfiguration.py
-num_clients=8
+num_clients=5
 echo -e "${RED}Num_clients${RESET}"
 echo $num_clients
 

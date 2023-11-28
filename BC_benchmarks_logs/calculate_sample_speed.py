@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 from collections import defaultdict
 
 def extract_samples_per_second(file_path):
@@ -43,7 +44,8 @@ def calculate_average(samples_per_second_dict):
 
     return averages
 
-dir_name = input("Dir name: \n")
+#dir_name = input("Dir name: \n")
+dir_name = sys.argv[1]
 directory_path = os.path.join('/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_benchmarks_logs/', dir_name)
 file_patterns = [r'dgx001_\d+_hac\.txt',r'dgx002_\d+_hac\.txt', r'gpu001_\d+_hac\.txt', r'gpu002_\d+_hac\.txt', r'gpu003_\d+_hac\.txt', r'gpu004_\d+_hac\.txt',
                 r'dgx001_\d+_sup\.txt',r'dgx002_\d+_sup\.txt', r'gpu001_\d+_sup\.txt', r'gpu002_\d+_sup\.txt', r'gpu003_\d+_sup\.txt', r'gpu004_\d+_sup\.txt']

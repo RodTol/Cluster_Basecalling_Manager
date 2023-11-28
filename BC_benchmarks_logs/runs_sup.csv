@@ -1,5 +1,8 @@
-Setup,samples/s-sum,Gb/s-sum,total-time
-sup_1_dgx,9.63E+07,9.63E-03,9369
-sup_1_dgx-1_gpu,1.05E+08,1.05E-02,8783
-sup_2_dgx,1.92E+08,1.92E-02,5107
-sup_2_dgx-1_gpu,200177942.5,0.02001779425,4527
+setups,samples/s-sum,Gb/s-sum,total-time
+run_sup_1_dgx,9.6334e+07,9.6334e-03,9309.0
+run_sup_1_dgx-1_gpu,1.0454e+08,1.0454e-02,8753.0
+run_sup_2_dgx,1.9216e+08,1.9216e-02,5077.0
+run_sup_2_dgx-1_gpu,2.0018e+08,2.0018e-02,4557.0
+run_sup_2_dgx-2_gpu,2.0769e+08,2.0769e-02,5024.0
+run_sup_2_dgx-3_gpu,1.1204e+08,1.1204e-02,8615.0
+run_sup_2_dgx-4_gpu,2.2333e+08,2.2333e-02,4153.0

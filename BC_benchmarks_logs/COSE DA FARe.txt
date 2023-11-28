@@ -1,9 +1,0 @@
-fai run 2_dgx-1_gpu SUP occhio ai cfg dei clientttt
-        1_dgx_1gpu SUP       
-        1_dgx-2_gpu HAC & SUP ?
-        
-        2_dgx_2_gpu
-        2_dgx_3_gpu
-        2_dgx_4_gpu
-        
-

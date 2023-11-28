@@ -1,0 +1,11 @@
+        Fai forse anche 4_gpu sia HAC che SUP
+
+        1_dgx-2_gpu HAC
+        2_dgx_2_gpu hac
+        2_dgx_3_gpu hac
+        2_dgx_4_gpu hac
+        
+        Rifai la sup_2_dgx-1_gpu per verificare la roba dei samples totali (dx dello sheet di excel)
+        Rifai la sup_2_dgx-3_gpu perche troppo brutta. 
+        
+        Ho visto i plot delle GPU% e sono buoni tranne per la 2_dgx-3_gpu
