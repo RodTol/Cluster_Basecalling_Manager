@@ -1,3 +1,5 @@
+dorado_server
+
 # Compiled Python files
 __pycache__/
 *.pyc
