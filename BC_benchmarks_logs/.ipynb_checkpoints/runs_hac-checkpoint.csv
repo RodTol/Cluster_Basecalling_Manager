@@ -1,4 +1,0 @@
-Setup,samples/s-sum,Gb/s-sum,total-time
-hac_1_dgx,4.94E+08,4.94E-02,2473.0
-hac_1_dgx-1_gpu,5.37E+08,5.37E-02,1995 
-hac_2_dgx,9.53E+08,9.53E-02,1213
