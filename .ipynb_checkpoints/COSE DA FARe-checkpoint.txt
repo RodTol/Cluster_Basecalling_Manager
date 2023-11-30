@@ -1,11 +1,12 @@
         Fai forse anche 4_gpu sia HAC che SUP
-
-        1_dgx-2_gpu HAC
+        
+        2_dgx_1_gpu hac lanciata, guarda i numeri
         2_dgx_2_gpu hac
         2_dgx_3_gpu hac
         2_dgx_4_gpu hac
         
         Rifai la sup_2_dgx-1_gpu per verificare la roba dei samples totali (dx dello sheet di excel)
-        Rifai la sup_2_dgx-3_gpu perche troppo brutta. 
         
-        Ho visto i plot delle GPU% e sono buoni tranne per la 2_dgx-3_gpu
+        Magari un check delle % delle GPU quando ho tanti nodi coinvolti fallo.
+        Sto facendo uno script python che stampi dal file csv la performance di una sola gpu e poi
+        magari lo faccio che sia zoomato su una certa posizione
