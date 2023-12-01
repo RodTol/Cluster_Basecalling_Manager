@@ -1,0 +1,179 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/subset_122G_CliveOME_5mc_dataset_POD5/
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/linear_scaling_output
+[0;31mI used 4 in this run[0m
+4
+[0;31mName of this run[0m
+dorado_hac_15-59_scaling_4.txt
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/linear_scaling_logs/dorado_hac_15-59_scaling_4.txt
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for dorado_hac_15-59_scaling_4.txt.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/linear_scaling_logs/dorado_hac_15-59_scaling_4.txt/connection_log_dorado_hac_15-59_scaling_4.txt.csv
+[2023-12-01 15:59:51.418] [info] > Creating basecall pipeline
+15:59:51:  [0;31mNo communication with nfs01.ib found.[0m
+15:59:55:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-12-01 16:00:05.044] [info]  - set batch size for cuda:0 to 4608
+[2023-12-01 16:00:05.196] [info]  - set batch size for cuda:1 to 4608
+[2023-12-01 16:00:05.354] [info]  - set batch size for cuda:2 to 4608
+[2023-12-01 16:00:05.490] [info]  - set batch size for cuda:3 to 4608
+16:00:00:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:06:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:12:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:17:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:22:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:27:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:42:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:47:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:52:  [0;31mNo communication with nfs01.ib found.[0m
+16:00:58:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:02:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:06:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:11:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:14:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:17:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:21:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:26:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:43:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:46: [0;32mCommunication with nfs01.ib found.[0m
+16:01:51:  [0;31mNo communication with nfs01.ib found.[0m
+16:01:58:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:03:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:07:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:12:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:17:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:23:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:29:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:34:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:38:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:43:  [0;31mNo communication with nfs01.ib found.[0m
+16:02:47: [0;32mCommunication with nfs01.ib found.[0m
+16:02:51: [0;32mCommunication with nfs01.ib found.[0m
+16:02:55:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:02:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:08:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:18:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:23:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:28:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:34:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:39:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:44:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:47:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:52:  [0;31mNo communication with nfs01.ib found.[0m
+16:03:56:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:00:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:04:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:09:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:12:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:16:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:19:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:23:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:28:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:33:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:44:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:47:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:51:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:55:  [0;31mNo communication with nfs01.ib found.[0m
+16:04:59:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:04:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:09:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:15:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:20:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:25: [0;32mCommunication with nfs01.ib found.[0m
+16:05:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:35: [0;32mCommunication with nfs01.ib found.[0m
+16:05:40:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:46:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:49:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:53:  [0;31mNo communication with nfs01.ib found.[0m
+16:05:58:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:04:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:08:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:14:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:17:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:25:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:30:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:35:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:40:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:46:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:52:  [0;31mNo communication with nfs01.ib found.[0m
+16:06:56:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:01:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:07:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:12:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:15:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:21:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:27:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:34:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:39: [0;32mCommunication with nfs01.ib found.[0m
+16:07:45:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:49:  [0;31mNo communication with nfs01.ib found.[0m
+16:07:56:  [0;31mNo communication with nfs01.ib found.[0m
+16:08:01:  [0;31mNo communication with nfs01.ib found.[0m
+16:08:07:  [0;31mNo communication with nfs01.ib found.[0m
+16:08:11:  [0;31mNo communication with nfs01.ib found.[0m
+16:08:15:  [0;31mNo communication with nfs01.ib found.[0m
+16:08:19:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-12-01 16:08:30.373] [info] > Simplex reads basecalled: 364096
+[2023-12-01 16:08:30.373] [info] > Simplex reads filtered: 1
+[2023-12-01 16:08:30.373] [info] > Basecalled @ Samples/s: 2.701211e+08
+[2023-12-01 16:08:30.846] [info] > Finished
+Successfully stopped recording stats for dorado_hac_15-59_scaling_4.txt.
+Successfully retrieved statistics for job: dorado_hac_15-59_scaling_4.txt. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Fri Dec  1 15:59:50 2023                |
+| End Time                           | Fri Dec  1 16:08:32 2023                |
+| Total Execution Time (sec)         | 521.24                                  |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 882062                                  |
+| Power Usage (Watts)                | Avg: 1645.56, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 40913338368                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3982 entries, 0 to 3981
+Data columns (total 4 columns):
+ #   Column                   Non-Null Count  Dtype 
+---  ------                   --------------  ----- 
+ 0   timestamp                3982 non-null   object
+ 1    pci.bus_id              3982 non-null   object
+ 2    utilization.gpu [%]     3981 non-null   object
+ 3    utilization.memory [%]  3981 non-null   object
+dtypes: object(4)
+memory usage: 124.6+ KB
+None
+[0;32m---------------------------------[0m

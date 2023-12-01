@@ -1,0 +1,143 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/subset_122G_CliveOME_5mc_dataset_POD5/
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/linear_scaling_output
+[0;31mI used 7 in this run[0m
+7
+[0;31mName of this run[0m
+dorado_hac_16-21_scaling_7.txt
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/linear_scaling_logs/dorado_hac_16-21_scaling_7.txt
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for dorado_hac_16-21_scaling_7.txt.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/linear_scaling_logs/dorado_hac_16-21_scaling_7.txt/connection_log_dorado_hac_16-21_scaling_7.txt.csv
+[2023-12-01 16:21:33.111] [info] > Creating basecall pipeline
+16:21:32:  [0;31mNo communication with nfs01.ib found.[0m
+16:21:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:21:40:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-12-01 16:21:45.324] [info]  - set batch size for cuda:0 to 4608
+[2023-12-01 16:21:45.501] [info]  - set batch size for cuda:1 to 4608
+[2023-12-01 16:21:45.711] [info]  - set batch size for cuda:2 to 4608
+[2023-12-01 16:21:45.875] [info]  - set batch size for cuda:3 to 4608
+[2023-12-01 16:21:46.035] [info]  - set batch size for cuda:4 to 4608
+[2023-12-01 16:21:46.207] [info]  - set batch size for cuda:5 to 4032
+[2023-12-01 16:21:46.358] [info]  - set batch size for cuda:6 to 4608
+16:21:45:  [0;31mNo communication with nfs01.ib found.[0m
+16:21:50:  [0;31mNo communication with nfs01.ib found.[0m
+16:21:54:  [0;31mNo communication with nfs01.ib found.[0m
+16:21:59:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:02:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:06:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:10:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:18:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:25:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:30:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:35:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:41:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:45:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:51:  [0;31mNo communication with nfs01.ib found.[0m
+16:22:56:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:01:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:07:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:10:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:15:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:18:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:24:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:29:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:35:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:39: [0;32mCommunication with nfs01.ib found.[0m
+16:23:43:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:46:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:49:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:55:  [0;31mNo communication with nfs01.ib found.[0m
+16:23:58:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:06:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:12:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:15:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:18:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:21:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:26:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:31:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:41:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:48:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:51:  [0;31mNo communication with nfs01.ib found.[0m
+16:24:57: [0;32mCommunication with nfs01.ib found.[0m
+16:25:03:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:08:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:16:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:21:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:25:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:28:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:32:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:37:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:42:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:47:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:53:  [0;31mNo communication with nfs01.ib found.[0m
+16:25:57:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:01:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:06:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:13:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:19:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:23:  [0;31mNo communication with nfs01.ib found.[0m
+16:26:28: [0;32mCommunication with nfs01.ib found.[0m
+16:26:31: [0;32mCommunication with nfs01.ib found.[0m
+[2023-12-01 16:26:36.382] [info] > Simplex reads basecalled: 364096
+[2023-12-01 16:26:36.382] [info] > Simplex reads filtered: 1
+[2023-12-01 16:26:36.382] [info] > Basecalled @ Samples/s: 4.702842e+08
+16:26:35:  [0;31mNo communication with nfs01.ib found.[0m
+[2023-12-01 16:26:39.329] [info] > Finished
+16:26:38:  [0;31mNo communication with nfs01.ib found.[0m
+Successfully stopped recording stats for dorado_hac_16-21_scaling_7.txt.
+Successfully retrieved statistics for job: dorado_hac_16-21_scaling_7.txt. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Fri Dec  1 16:21:32 2023                |
+| End Time                           | Fri Dec  1 16:26:41 2023                |
+| Total Execution Time (sec)         | 308.67                                  |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 726195                                  |
+| Power Usage (Watts)                | Avg: 2724.65, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 40913338368                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2403 entries, 0 to 2402
+Data columns (total 4 columns):
+ #   Column                   Non-Null Count  Dtype 
+---  ------                   --------------  ----- 
+ 0   timestamp                2403 non-null   object
+ 1    pci.bus_id              2402 non-null   object
+ 2    utilization.gpu [%]     2402 non-null   object
+ 3    utilization.memory [%]  2402 non-null   object
+dtypes: object(4)
+memory usage: 75.2+ KB
+None
+[0;32m---------------------------------[0m
