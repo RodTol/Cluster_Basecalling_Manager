@@ -1,0 +1,144 @@
+1_dgx-3_gpu SUP
+[0;31m[2023-12-02 22:22:03] dgx002[0m
+[0;31m[2023-12-02 22:22:03] BC_manager is running[0m
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-12-02 22:22:04] gpu004[0m
+[0;31m[2023-12-02 22:22:04] gpu002[0m
+[0;31m[2023-12-02 22:22:04] gpu003[0m
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu003/42837
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu004/42837
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   208
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1
+runners per device:  12
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu002/42837
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_sup.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_sup.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_dgx002/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Traceback (most recent call last):
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu002/BCProcessors.py", line 302, in <module>
+    eng.begin_working()
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu002/BCProcessors.py", line 221, in begin_working
+    print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine.id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
+AttributeError: 'BCEngine' object has no attribute 'engine'
+[0;32m[2023-12-03 00:04:27] Processors has finished on gpu002[0m
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-03 00:25:18] Processors has finished on dgx002[0m
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Traceback (most recent call last):
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu004/BCProcessors.py", line 302, in <module>
+    eng.begin_working()
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu004/BCProcessors.py", line 221, in begin_working
+    print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine.id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
+AttributeError: 'BCEngine' object has no attribute 'engine'
+[0;32m[2023-12-03 00:29:52] Processors has finished on gpu004[0m
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Traceback (most recent call last):
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu003/BCProcessors.py", line 302, in <module>
+    eng.begin_working()
+  File "/orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/executable_gpu003/BCProcessors.py", line 221, in begin_working
+    print("STOPPING BATCH REQUEST LOOP: ENGINE " + str(self.engine.id) + " WILL NO LONGER ASK FOR NEW BATCHES OF WORK.")
+AttributeError: 'BCEngine' object has no attribute 'engine'
+[0;32m[2023-12-03 00:31:23] Processors has finished on gpu003[0m
+slurmstepd: error: *** STEP 94002.0 ON dgx002 CANCELLED AT 2023-12-03T02:22:19 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 94002 ON dgx002 CANCELLED AT 2023-12-03T02:22:19 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

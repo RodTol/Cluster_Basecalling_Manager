@@ -1,6 +1,9 @@
 setups,samples/s-sum,Gb/s-sum,total-time
 run_sup_1_dgx,9.6334e+07,9.6334e-03,9309.0
 run_sup_1_dgx-1_gpu,1.0454e+08,1.0454e-02,8753.0
+run_sup_1_dgx-2_gpu,1.1249e+08,1.1249e-02,7880.0
+run_sup_1_dgx-3_gpu,1.2032e+08,1.2032e-02,7750.0
+run_sup_1_dgx-4_gpu,1.2806e+08,1.2806e-02,6979.0
 run_sup_2_dgx,1.9216e+08,1.9216e-02,5077.0
 run_sup_2_dgx-1_gpu,2.0018e+08,2.0018e-02,4557.0
 run_sup_2_dgx-2_gpu,2.0769e+08,2.0769e-02,5024.0

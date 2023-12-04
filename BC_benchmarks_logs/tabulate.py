@@ -30,6 +30,9 @@ def calculate_gb_per_sec(samples_per_sec):
 dir_names_sup = [
     "run_sup_1_dgx",
     "run_sup_1_dgx-1_gpu",
+    "run_sup_1_dgx-2_gpu",
+    "run_sup_1_dgx-3_gpu",
+    "run_sup_1_dgx-4_gpu",
     "run_sup_2_dgx",
     "run_sup_2_dgx-1_gpu",
     "run_sup_2_dgx-2_gpu",
@@ -40,8 +43,14 @@ dir_names_sup = [
 dir_names_hac = [
     "run_hac_1_dgx",
     "run_hac_1_dgx-1_gpu",
+    "run_hac_1_dgx-2_gpu",
+    "run_hac_1_dgx-3_gpu",
+    "run_hac_1_dgx-4_gpu",
     "run_hac_2_dgx",
     "run_hac_2_dgx-1_gpu",
+    "run_hac_2_dgx-2_gpu",
+    "run_hac_2_dgx-3_gpu",
+    "run_hac_2_dgx-4_gpu",
 ]
 
 # Path to the Python scripts

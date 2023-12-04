@@ -1,5 +1,11 @@
 setups,samples/s-sum,Gb/s-sum,total-time
 run_hac_1_dgx,4.9411e+08,4.9411e-02,2503.0
 run_hac_1_dgx-1_gpu,5.3726e+08,5.3726e-02,2025.0
+run_hac_1_dgx-2_gpu,5.6764e+08,5.6764e-02,1798.0
+run_hac_1_dgx-3_gpu,6.0984e+08,6.0984e-02,1710.0
+run_hac_1_dgx-4_gpu,6.4989e+08,6.4989e-02,1715.0
 run_hac_2_dgx,9.5321e+08,9.5321e-02,1213.0
 run_hac_2_dgx-1_gpu,9.9116e+08,9.9116e-02,1092.0
+run_hac_2_dgx-2_gpu,1.0320e+09,1.0320e-01,1183.0
+run_hac_2_dgx-3_gpu,1.0779e+09,1.0779e-01,1183.0
+run_hac_2_dgx-4_gpu,1.1176e+09,1.1176e-01,1186.0

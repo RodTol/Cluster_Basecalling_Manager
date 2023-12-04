@@ -1,0 +1,116 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ASSIGNED_317589998724495259041649275703213956111_gpu003_engine
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/BC_run_output/run_hac_1_dgx-3_gpu/TMPOUTPUT_317589998724495259041649275703213956111_gpu003_engine
+[0;31mNum_clients[0m
+5
+[0;31mName of this run[0m
+BC_hac_5_clients_18-17_benchmark_gpu003
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/BC_run_logs/BC_hac_5_clients_18-17_benchmark_gpu003
+Start run
+./supervisor.sh: line 42: dcgmi: command not found
+./supervisor.sh: line 44: dcgmi: command not found
+./supervisor.sh: line 46: dcgmi: command not found
+Select interface
+ibp216s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/BC_run_logs/BC_hac_5_clients_18-17_benchmark_gpu003/connection_log_BC_hac_5_clients_18-17_benchmark_gpu003.csv
+18:17:10:  [0;31mNo communication with nfs01.ib found.[0m
+ONT basecaller supervisor version 7.1.4+d7df870c0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+Found 2 input read files to process.
+Processing ...
+18:17:11:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:12:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:13:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:14:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:15:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:16:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:17:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:18:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:19:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:20:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:21:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:22:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:23:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:24:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:25:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:26:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:27:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:28:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:29:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:30:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:31:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:32:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:33:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:34:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:35:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:36:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:37:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:38:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:39:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:40:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:41:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:42:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:43:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:44:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:45:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:46:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:47:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:48:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:49:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:50:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:51:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:52:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:53:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:54:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:55:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:56:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:57:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:58:  [0;31mNo communication with nfs01.ib found.[0m
+18:17:59:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:00:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:01:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:02:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:03:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:04:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:05:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:06:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:07:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:08:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:09:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:10:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:11:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:12:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:13:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:14:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:15:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:16:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:17:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:18:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:19:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:20:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:21:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:22:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:23:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:24:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:25:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:26:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:27:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:28:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:29:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:30:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:31:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:32:  [0;31mNo communication with nfs01.ib found.[0m
+18:18:33:  [0;31mNo communication with nfs01.ib found.[0m
+Caller time: 83908 ms, Samples called: 3360233211, samples/s: 4.00466e+07
+All instances of ont_basecall_client completed successfully.
+./supervisor.sh: line 67: dcgmi: command not found
+./supervisor.sh: line 69: dcgmi: command not found
+./supervisor.sh: line 71: dcgmi: command not found
+[0;32m---------------------------------[0m
