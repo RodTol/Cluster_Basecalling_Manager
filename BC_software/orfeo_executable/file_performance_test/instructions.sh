@@ -53,5 +53,4 @@ current_time=$(date "+%Y-%m-%d %H:%M:%S")
 message="Processors has finished on dgx002"
 # Echo the time and message
 echo -e "${GREEN}[$current_time] $message${RESET}"
-wait
 

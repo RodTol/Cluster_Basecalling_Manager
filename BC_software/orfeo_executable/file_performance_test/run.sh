@@ -14,7 +14,7 @@ for i in {1..5}; do
     #LOG DIR
     mkdir -p /u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/bc_logs/$run_name
     
-    srun u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh $i &
+    srun /u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh $i &
     wait
 
     # move supervisors logs to directory
