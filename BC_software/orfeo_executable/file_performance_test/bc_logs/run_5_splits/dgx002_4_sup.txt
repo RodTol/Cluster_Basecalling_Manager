@@ -1,0 +1,137 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ASSIGNED_314485582657337521919610538848562001037_dgx002_engine
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/run_files_test/outputs/run_1_splits/TMPOUTPUT_314485582657337521919610538848562001037_dgx002_engine
+[0;31mNum_clients[0m
+25
+[0;31mName of this run[0m
+BC_hac_25_clients_19-57_benchmark_dgx002
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/run_files_test/logs/BC_hac_25_clients_19-57_benchmark_dgx002
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for BC_hac_25_clients_19-57_benchmark_dgx002.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/run_files_test/logs/BC_hac_25_clients_19-57_benchmark_dgx002/connection_log_BC_hac_25_clients_19-57_benchmark_dgx002.csv
+ONT basecaller supervisor version 7.1.4+d7df870c0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+Found 116 input read files to process.
+Processing ...
+19:57:13:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:17:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:20:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:26:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:31:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:34:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:38:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:41:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:45:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:48:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:51:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:55:  [0;31mNo communication with nfs01.ib found.[0m
+19:57:58:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:01:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:05:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:09:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:13:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:18:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:25:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:29:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:36:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:41:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:46:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:51:  [0;31mNo communication with nfs01.ib found.[0m
+19:58:57:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:00:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:03:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:06:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:10:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:16:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:21:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:27:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:32:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:36:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:41:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:46:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:49:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:55:  [0;31mNo communication with nfs01.ib found.[0m
+19:59:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:02:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:05:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:09:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:15:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:27:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:33:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:36:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:43:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:46:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:50:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:54:  [0;31mNo communication with nfs01.ib found.[0m
+20:00:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:05:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:10:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:16:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:22:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:25:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:29:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:35:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:40:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:47:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:50:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:53:  [0;31mNo communication with nfs01.ib found.[0m
+20:01:58:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:04:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:08:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:13:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:18:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:23:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:29:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:32:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:35:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:40:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:44:  [0;31mNo communication with nfs01.ib found.[0m
+20:02:48:  [0;31mNo communication with nfs01.ib found.[0m
+Caller time: 337783 ms, Samples called: 168988504744, samples/s: 5.00287e+08
+All instances of ont_basecall_client completed successfully.
+Successfully stopped recording stats for BC_hac_25_clients_19-57_benchmark_dgx002.
+Successfully retrieved statistics for job: BC_hac_25_clients_19-57_benchmark_dgx002. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Mon Dec  4 19:57:13 2023                |
+| End Time                           | Mon Dec  4 20:02:51 2023                |
+| Total Execution Time (sec)         | 337.84                                  |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 883294                                  |
+| Power Usage (Watts)                | Avg: 2965.1, Max: N/A, Min: N/A         |
+| Max GPU Memory Used (bytes)        | 40758149120                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+[0;32m---------------------------------[0m

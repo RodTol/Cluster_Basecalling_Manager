@@ -3,7 +3,7 @@
 #SBATCH --time=06:00:00
 #SBATCH -p DGX --ntasks-per-node=1 --nodes=1 --cpus-per-task=256 --gpus=8 --nodelist=dgx002
 
-for i in {1..5}; do
+for i in {5..10}; do
     run_name="run_${i}_splits"
     #OUTPUT DIR
     mkdir -p /AB_20T_output/nanopore_output/run_files_test/outputs/$run_name

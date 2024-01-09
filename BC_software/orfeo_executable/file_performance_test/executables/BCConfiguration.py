@@ -19,7 +19,7 @@ class Conf:
     engine_inputdir = "/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5"
     engine_polling_interval = 1
     engine_id = "dgx002_engine"
-    engine_optimal_request_size = 584 #INPUT
+    engine_optimal_request_size = 58 #INPUT
     
     #dgx001 hosting
     #keep_alive_terminate_url =  "http://10.128.2.161:5000/completed"

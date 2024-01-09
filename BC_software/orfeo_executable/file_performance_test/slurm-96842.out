@@ -1,0 +1,260 @@
+[0;31m[2023-12-04 19:36:35] dgx002[0m
+------------------------------------
+Number of Splits: 5
+Total Files: 584
+Batch Size: 116
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [5: command not found
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+Batch size modified. New value: 116
+[0;31m[2023-12-04 19:36:35] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 20:12:09] Processors has finished on dgx002[0m
+[0;31m[2023-12-04 20:12:17] dgx002[0m
+------------------------------------
+Number of Splits: 6
+Total Files: 584
+Batch Size: 97
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [6: command not found
+Batch size modified. New value: 97
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-12-04 20:12:17] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 20:49:14] Processors has finished on dgx002[0m
+[0;31m[2023-12-04 20:49:22] dgx002[0m
+------------------------------------
+Number of Splits: 7
+Total Files: 584
+Batch Size: 83
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [7: command not found
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+Batch size modified. New value: 83
+[0;31m[2023-12-04 20:49:22] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 21:26:55] Processors has finished on dgx002[0m
+[0;31m[2023-12-04 21:27:04] dgx002[0m
+------------------------------------
+Number of Splits: 8
+Total Files: 584
+Batch Size: 73
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [8: command not found
+Batch size modified. New value: 73
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-12-04 21:27:04] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 22:03:25] Processors has finished on dgx002[0m
+[0;31m[2023-12-04 22:03:33] dgx002[0m
+------------------------------------
+Number of Splits: 9
+Total Files: 584
+Batch Size: 64
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [9: command not found
+Batch size modified. New value: 64
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-12-04 22:03:33] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 22:44:25] Processors has finished on dgx002[0m
+[0;31m[2023-12-04 22:44:33] dgx002[0m
+------------------------------------
+Number of Splits: 10
+Total Files: 584
+Batch Size: 58
+------------------------------------
+/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/instructions.sh: line 37: [10: command not found
+Batch size modified. New value: 58
+Log files path
+/AB_20T_output/nanopore_output/server_logs/
+[0;31m[2023-12-04 22:44:33] BC_manager is running[0m
+ONT Dorado basecall server software version 7.1.4+d7df870c0, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /AB_20T_output/nanopore_output/server_logs/
+chunk size:          2000
+chunks per runner:   256
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0,1,2,3,4,5,6,7
+runners per device:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+
+
+Config loaded:
+config file:               /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_hac.cfg
+model file:                /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/data/template_r10.4.1_e8.2_400bps_hac.jsn
+model version id           None
+adapter scaler model file: None
+Starting server on port: ipc:///orfeo/cephfs/home/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/executables/42837
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+Processing result: 0 PROCESSING_STATE is: DONE
+STOPPING BATCH REQUEST LOOP: ENGINE dgx002_engine WILL NO LONGER ASK FOR NEW BATCHES OF WORK.
+[0;32m[2023-12-04 23:22:54] Processors has finished on dgx002[0m

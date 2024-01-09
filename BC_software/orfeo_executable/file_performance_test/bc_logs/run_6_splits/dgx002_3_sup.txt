@@ -1,0 +1,123 @@
+[0;31mInput directory[0m
+/AB_20T_input/dataset/CliveOME_5mc_dataset_POD5/ASSIGNED_276761762238610567294024486134683074256_dgx002_engine
+[0;31mSave path[0m
+/AB_20T_output/nanopore_output/run_files_test/outputs/run_1_splits/TMPOUTPUT_276761762238610567294024486134683074256_dgx002_engine
+[0;31mNum_clients[0m
+25
+[0;31mName of this run[0m
+BC_hac_25_clients_20-24_benchmark_dgx002
+[0;31mlog path[0m
+/AB_20T_output/nanopore_output/run_files_test/logs/BC_hac_25_clients_20-24_benchmark_dgx002
+Start run
+Successfully removed all jobs.
+Successfully started process watches.
+Successfully started recording stats for BC_hac_25_clients_20-24_benchmark_dgx002.
+Select interface
+ibp18s0
+Select host (nfs01.ib)
+nfs01.ib
+Output file: /AB_20T_output/nanopore_output/run_files_test/logs/BC_hac_25_clients_20-24_benchmark_dgx002/connection_log_BC_hac_25_clients_20-24_benchmark_dgx002.csv
+ONT basecaller supervisor version 7.1.4+d7df870c0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /orfeo/cephfs/home/dssc/tolloi/ont-dorado-server/bin
+
+Found 97 input read files to process.
+Processing ...
+20:24:06:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:11:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:17:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:22:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:25:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:31:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:36:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:39:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:43:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:46:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:54:  [0;31mNo communication with nfs01.ib found.[0m
+20:24:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:05:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:08:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:11:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:15:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:25:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:30:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:35:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:38:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:41:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:45:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:48:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:53:  [0;31mNo communication with nfs01.ib found.[0m
+20:25:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:03:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:09:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:14:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:25:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:30:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:35: [0;32mCommunication with nfs01.ib found.[0m
+20:26:39:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:45:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:50:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:56:  [0;31mNo communication with nfs01.ib found.[0m
+20:26:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:05:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:09:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:12:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:15:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:24:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:27:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:30:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:36:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:40:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:45:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:49:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:56:  [0;31mNo communication with nfs01.ib found.[0m
+20:27:59:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:02:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:07:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:11:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:16:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:19:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:23:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:26:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:29:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:33:  [0;31mNo communication with nfs01.ib found.[0m
+20:28:37:  [0;31mNo communication with nfs01.ib found.[0m
+Caller time: 276677 ms, Samples called: 138072635613, samples/s: 4.99039e+08
+All instances of ont_basecall_client completed successfully.
+Successfully stopped recording stats for BC_hac_25_clients_20-24_benchmark_dgx002.
+Successfully retrieved statistics for job: BC_hac_25_clients_20-24_benchmark_dgx002. 
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Mon Dec  4 20:24:06 2023                |
+| End Time                           | Mon Dec  4 20:28:43 2023                |
+| Total Execution Time (sec)         | 276.71                                  |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 738962                                  |
+| Power Usage (Watts)                | Avg: 2947.39, Max: N/A, Min: N/A        |
+| Max GPU Memory Used (bytes)        | 40519073792                             |
+| Clocks and PCIe Performance        | Available per GPU in verbose mode       |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | Not Specified                           |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+Successfully removed all jobs.
+[0;32m---------------------------------[0m

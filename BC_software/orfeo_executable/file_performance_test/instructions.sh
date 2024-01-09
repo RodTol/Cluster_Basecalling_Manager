@@ -34,8 +34,14 @@ output_dir="/AB_20T_output/nanopore_output/run_files_test/outputs/${run_name}"
 bc_logs_path=/u/dssc/tolloi/Cluster_Basecalling_Manager/BC_software/orfeo_executable/file_performance_test/bc_logs/$run_name
 
 # Use sed to replace the value of engine_optimal_request_size with the new value
-sed -i "s/engine_optimal_request_size = batch_size/engine_optimal_request_size = $batch_size/" "$python_file"
-echo "Batch size modified. New value: $batch_size"
+if [$number_of_splits == 1]; then
+    #Should already be 584
+    echo "Batch size modified. New value: $batch_size"
+else
+    previous_value=$((total_file / (number_of_splits-1)))
+    sed -i "s/engine_optimal_request_size = $previous_value/engine_optimal_request_size = $batch_size/" "$python_file"
+    echo "Batch size modified. New value: $batch_size"
+fi
 
 sed -i "s|mngt_outputdir = '/AB_20T_output/nanopore_output/run_files_test/outputs/run_name'|mngt_outputdir = '$output_dir'|" "$python_file"
 sed -i "s|engine_outputdir = '/AB_20T_output/nanopore_output/run_files_test/outputs/run_name'|engine_outputdir = '$output_dir'|" "$python_file"
